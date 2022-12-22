@@ -1,0 +1,260 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Programs\My programs\MyUnity\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Games/UnityGame/Anim_Home Work
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65054
+Successfully changed project path to: D:/Games/UnityGame/Anim_Home Work
+D:/Games/UnityGame/Anim_Home Work
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 77.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path D:/Programs/My programs/MyUnity/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Games/UnityGame/Anim_Home Work/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     7870 MB
+    Driver:   27.20.11032.5001
+Initialize mono
+Mono path[0] = 'D:/Programs/My programs/MyUnity/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programs/My programs/MyUnity/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programs/My programs/MyUnity/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programs/My programs/MyUnity/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Programs/My programs/MyUnity/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Programs/My programs/MyUnity/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002359 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.604 seconds
+Domain Reload Profiling:
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (449ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003022 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Games\UnityGame\Anim_Home Work\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Games\UnityGame\Anim_Home Work\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1066ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3839.
+Memory consumption went from 116.2 MB to 116.1 MB.
+Total: 3.173600 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.636600 ms  DeleteObjects: 0.115200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 677120.893970 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.010977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.051554 seconds.
+  path: Assets/Animation MIXAMO
+  artifactKey: Guid(33e48894f372c804f8c06ef9ed3856ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation MIXAMO using Guid(33e48894f372c804f8c06ef9ed3856ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f005994f5c6e4d13f81d88a80cc835') in 0.011885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.608406 seconds.
+  path: Assets/Animation MIXAMO/Draw A Great Sword 1.fbx
+  artifactKey: Guid(928641deefc21344e9b8a5b92f16c782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation MIXAMO/Draw A Great Sword 1.fbx using Guid(928641deefc21344e9b8a5b92f16c782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d9c591858c34492761587c5456e2c7') in 0.459645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Animation MIXAMO/Jumping.fbx
+  artifactKey: Guid(00ae8c251d8c67d4c935da8ad6839fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation MIXAMO/Jumping.fbx using Guid(00ae8c251d8c67d4c935da8ad6839fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bf9fd144a6556d61892122ef248f9f') in 0.048959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Animation MIXAMO/Standing Aim Idle 01.fbx
+  artifactKey: Guid(9165691fb359deb4988646d21e3a76b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation MIXAMO/Standing Aim Idle 01.fbx using Guid(9165691fb359deb4988646d21e3a76b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7548da4b94a49890843ec3c067bbe9') in 0.047518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animation MIXAMO/Walking.fbx
+  artifactKey: Guid(0f302fb1bbadd504b8e0eb546066b339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation MIXAMO/Walking.fbx using Guid(0f302fb1bbadd504b8e0eb546066b339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46da1b80453b8336ba5c7ee8179379d7') in 0.046845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animation MIXAMO/Great Sword Slash.fbx
+  artifactKey: Guid(c65346867d903b94198e5a52b220b603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation MIXAMO/Great Sword Slash.fbx using Guid(c65346867d903b94198e5a52b220b603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df583421d17b989968f3a1d17f1b7fdb') in 0.045959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 222.513060 seconds.
+  path: Assets/Characters MIXAMO/MariaMat.mat
+  artifactKey: Guid(a0a4dae5ef9f6af4bbc0b311865265e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters MIXAMO/MariaMat.mat using Guid(a0a4dae5ef9f6af4bbc0b311865265e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b60cd10d918ece7a144efbe5684082') in 0.018424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.383574 seconds.
+  path: Assets/Characters MIXAMO/maria_diffuse.png
+  artifactKey: Guid(87f39268fafed1c41b1c89d488b59713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters MIXAMO/maria_diffuse.png using Guid(87f39268fafed1c41b1c89d488b59713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9051768f3de02d941ea21265beb06bfe') in 0.064433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Characters MIXAMO/maria_specular.png
+  artifactKey: Guid(ddaea7d814bfe1a4e9a7e1e85424e817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters MIXAMO/maria_specular.png using Guid(ddaea7d814bfe1a4e9a7e1e85424e817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20f3dff0312ddb2931416230bd47260') in 0.016170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.861032 seconds.
+  path: Assets/Characters MIXAMO/maria_diffuse.png
+  artifactKey: Guid(fda4018a1915df7478cf8810d9427a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters MIXAMO/maria_diffuse.png using Guid(fda4018a1915df7478cf8810d9427a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d64bc619aa1dc0cf68fd5a529918d5') in 0.015977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Characters MIXAMO/maria_normal.png
+  artifactKey: Guid(5e26847f7dd055340a766ee7b7dcc529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters MIXAMO/maria_normal.png using Guid(5e26847f7dd055340a766ee7b7dcc529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95292280c1ec96825cd0d1dadf43585f') in 0.017743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Characters MIXAMO/maria_specular.png
+  artifactKey: Guid(e438217146b4755479d6cb97b2d9b89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters MIXAMO/maria_specular.png using Guid(e438217146b4755479d6cb97b2d9b89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2943530377dabf268ce54f5431613704') in 0.017172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.938643 seconds.
+  path: Assets/Animation MIXAMO/Draw A Great Sword 2.fbx
+  artifactKey: Guid(389fa3d68c5a52547b6f3ede2dfafd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation MIXAMO/Draw A Great Sword 2.fbx using Guid(389fa3d68c5a52547b6f3ede2dfafd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b46c8648c882b99b7b9ee8b8254ad0') in 0.248887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Animation MIXAMO/Maria WProp J J Ong@Great Sword Idle (1).fbx
+  artifactKey: Guid(c0b9a2585f28d39419545e033faffcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation MIXAMO/Maria WProp J J Ong@Great Sword Idle (1).fbx using Guid(c0b9a2585f28d39419545e033faffcd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b66bce1ccbc6c4d8cb18d941bebb492') in 0.057072 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
